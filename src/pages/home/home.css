@@ -1,0 +1,134 @@
+.homeContainer{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+}
+.homeContainer .home{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 844px;
+    width: 390px;
+    border: 1px solid grey;
+}
+
+/* TOPBAR */
+.topbar1{
+    background-color: #69235B;
+    color: black;
+    height: 6%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding-inline: 50px 65px;
+    
+}
+.topbar1 .top_icons1{
+    display: flex;
+    gap: 20%;
+}
+.topbar1 p{
+    font-weight: 600;
+}
+
+.overContainer1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.overlapText1{
+    color: #69235B;
+    /* border: 1px solid black; */
+    background-color: #CBCBFF;
+    text-align: center;
+    font-size: 16px;
+    width: 50%;
+    margin-top: -20px;
+    border-radius: 5px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    
+}
+.body1{
+    background-color: #69235B;
+    height: 100%;
+    margin-top: -20px;
+    padding: 50px 30px;
+}
+.body1 .description h1{
+color: white;
+}
+.body1 .description h1 span{
+    color: #FFC746;
+}
+.body1 .description p{
+    color: white;
+    font-weight: 100;
+}
+.body1 .description p span{
+    color: #FFC746;
+}
+.body1 .logos1{
+    /* border: 1px solid grey; */
+    display: flex;
+    gap: 25px;
+    margin-block: 6%;
+    justify-content: center;
+}
+.body1 .logos1 .logo1{
+    border: 1px solid grey;
+    padding: 5px;
+    border-radius: 20px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}
+.body1 .OR1{
+    display: flex;
+    justify-content: center;
+}
+.body1 .oreo1{
+    width: 80%; 
+    text-align: center; 
+    border-bottom: 1px solid #CDD1D0; 
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+    color: #CDD1D0; 
+    margin-bottom: 10%;
+}
+.body1 .oreo1 .orSpan1 { 
+    background:#69235B; 
+    padding:0 10px;     
+}
+.btn1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.btn1 button{
+    background-color: #FFC746;
+    color: #69235B;
+    font-size: 20px;
+    font-weight: 500;
+    width: 100%;
+    height: 54px;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+}
+.btn1 p{
+   color: white;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+.btn1 p span{
+    color: #FFC746;
+    cursor: pointer;
+}

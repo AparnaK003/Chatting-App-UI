@@ -1,0 +1,31 @@
+.splashContainer{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    
+}
+.splash{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 844px;
+    width: 390px;
+    border: 1px solid grey;
+}
+.splash .splashBody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    
+}
+.splash .splashBody img{
+    margin-top: 65%;
+}
+/* U+0950  -  Om */
+.splash .splashBody p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #69235B;
+    margin-top: 65%;
+}

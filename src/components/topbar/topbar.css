@@ -1,0 +1,21 @@
+.topbar{
+    background-color: white;
+    color: black;
+    height: 6%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid grey; */
+    /* padding-inline: 8%; */
+    box-sizing: border-box;
+    padding-inline: 50px 65px;
+    
+}
+.topbar .top_icons{
+    display: flex;
+    gap: 20%;
+}
+.topbar p{
+    font-weight: 600;
+}
